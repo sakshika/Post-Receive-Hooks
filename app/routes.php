@@ -1,4 +1,5 @@
 <?php
+//dfkghjdfkgjlk;g
 
 Route::get('/', 'HomeController@index');
 Route::get('register', function(){ return View::make('register')->with('pTitle', "Register"); });
